@@ -1,0 +1,27 @@
+kind = "web"
+previewPath = "/"
+title = "Mangalam Insurance & Investment"
+version = "1.0.0"
+id = "artifacts/mangalam-insurance"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19268
+
+[services.development]
+run = "pnpm --filter @workspace/mangalam-insurance run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mangalam-insurance", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/mangalam-insurance/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19268"
+BASE_PATH = "/"

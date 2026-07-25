@@ -1,0 +1,114 @@
+Create a world-class, luxury, modern, and highly aesthetic website for an insurance and investment company called "Mangalam Insurance & Investment."
+
+The website should feel premium, trustworthy, elegant, and minimal—similar to high-end fintech companies. Use a clean white background with shades of royal blue, navy, emerald green, and subtle gold accents. Include smooth animations, glassmorphism cards, soft shadows, rounded corners, modern gradients, and professional icons. The design should be fully responsive and optimized for mobile.
+
+Typography:
+- Large bold headings
+- Elegant modern fonts (Poppins, Inter, or Manrope)
+- Plenty of white space
+- Premium visual hierarchy
+
+Homepage:
+Create a full-screen hero section with a high-quality image of a happy family, healthcare, financial planning, and insurance professionals.
+
+Headline:
+"Protect Today. Secure Tomorrow."
+
+Subheading:
+Helping families and businesses choose the right insurance and investment solutions with expert guidance, transparent advice, and lifelong support.
+
+Primary Buttons:
+• Get Free Quote
+• WhatsApp Now
+• Call Now
+
+Add a statistics section:
+- 1000+ Happy Customers
+- 5000+ Policies Issued
+- 24×7 Customer Support
+- Fast Claim Assistance
+
+Services Section:
+Display premium animated cards for:
+- Health Insurance
+- Life Insurance
+- Motor Insurance
+- Bike Insurance
+- Travel Insurance
+- Home Insurance
+- Personal Accident Insurance
+- Commercial Insurance
+- Mutual Funds
+- SIP Investment Plans
+
+Each card should include:
+- Premium icon
+- Short description
+- Learn More button
+
+Why Choose Us:
+Use modern glassmorphism cards with icons.
+
+Include:
+✔ Expert Advice
+✔ Multiple Insurance Companies
+✔ Lowest Premium Comparison
+✔ Hassle-Free Claims
+✔ Lifetime Renewal Support
+✔ Personalized Service
+✔ Quick Policy Issuance
+✔ Dedicated Customer Support
+
+Insurance Partners:
+Display professional logo placeholders in a clean animated grid.
+
+Customer Testimonials:
+Elegant cards with profile photos, star ratings, and customer reviews.
+
+Quote Request:
+Create a stylish form asking for:
+- Name
+- Mobile Number
+- Email
+- Insurance Type
+- City
+- Message
+
+Include a large "Get My Quote" button.
+
+FAQ Section:
+Use a modern accordion design with common insurance questions.
+
+Blog Section:
+Create beautiful blog cards for insurance tips, financial planning, tax savings, and investment advice.
+
+Contact Page:
+Include:
+Phone:
++91 98242 77195
++91 70431 77791
+
+WhatsApp Chat Button
+Email placeholder
+Google Maps placeholder
+Business Hours
+Social Media Icons
+
+Footer:
+Modern dark footer with quick links, services, contact details, social media icons, and copyright.
+
+Special Features:
+- Floating WhatsApp button
+- Floating Call button
+- Sticky navigation bar
+- Dark mode toggle
+- Smooth scrolling
+- Scroll animations
+- Animated counters
+- Interactive hover effects
+- SEO optimized
+- Fast loading
+- Secure contact form
+
+Overall style:
+Apple meets Stripe meets Razorpay meets Policybazaar—clean, premium, trustworthy, and conversion-focused. The website should look like it was designed by a top UI/UX agency, with high-quality royalty-free images, elegant illustrations, and a polished, modern aesthetic that encourages visitors to request a quote and contact the business.
