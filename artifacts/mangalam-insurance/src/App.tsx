@@ -23,10 +23,8 @@ const services: { title: string; description: string; icon: IconType; number: st
   { title: 'Home Insurance', description: 'Protect the place where your most important memories live.', icon: HomeIcon, number: '04' },
   { title: 'Travel Insurance', description: 'Go further knowing the unexpected is already considered.', icon: Plane, number: '05' },
   { title: 'Business Insurance', description: 'Resilient businesses begin with a considered risk strategy.', icon: BriefcaseBusiness, number: '06' },
-  { title: 'Investment Planning', description: 'Make every rupee work with clarity, discipline and intent.', icon: TrendingUp, number: '07' },
-  { title: 'Retirement Planning', description: 'Build a future with the freedom to choose how you live.', icon: PiggyBank, number: '08' },
-  { title: 'Child Education', description: 'Turn big ambitions into a plan that grows with them.', icon: Target, number: '09' },
-  { title: 'Tax Planning', description: 'Structure your finances with efficiency, not last-minute panic.', icon: IndianRupee, number: '10' },
+  { title: 'Mutual Funds', description: 'Build diversified wealth with investment choices aligned to your goals.', icon: TrendingUp, number: '07' },
+  { title: 'SIPs', description: 'Invest consistently over time with a simple, disciplined path to growth.', icon: PiggyBank, number: '08' },
 ];
 
 const benefits = [
