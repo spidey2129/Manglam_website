@@ -124,7 +124,7 @@ function Hero({ dark, setDark }: { dark: boolean; setDark: (value: boolean) => v
 function TrustStrip() {
   return <section className="border-b border-border bg-card">
     <div className="section-shell grid grid-cols-2 divide-x divide-y divide-border md:grid-cols-4 md:divide-y-0">
-      {[['15+', 'years of trusted advice'], ['3,800+', 'families and businesses'], ['₹120 Cr+', 'assets guided'], ['4.9/5', 'client experience rating']].map(([stat, label], index) => <div className="px-4 py-7 first:pl-0 md:px-8 md:py-8" key={stat} data-testid={`text-trust-stat-${index}`}>
+      {[['25+', 'years of trusted advice'], ['10k+', 'families and businesses'], ['₹120 Cr+', 'assets guided'], ['4.9/5', 'client experience rating']].map(([stat, label], index) => <div className="px-4 py-7 first:pl-0 md:px-8 md:py-8" key={stat} data-testid={`text-trust-stat-${index}`}>
         <p className="font-display text-3xl text-primary md:text-4xl">{stat}</p><p className="mt-1 text-xs text-muted-foreground">{label}</p>
       </div>)}
     </div>
@@ -138,10 +138,10 @@ function About() {
         <div className="absolute -left-12 -top-12 h-40 w-40 rounded-full border border-accent/35" />
         <div className="relative rounded-[2rem] bg-[#d9e5dc] p-4 pb-16 dark:bg-[#1c3a35]">
           <div className="flex aspect-[4/4.5] flex-col justify-between overflow-hidden rounded-[1.5rem] bg-[#204c4a] p-8 text-[#f7f2e8]">
-            <div className="flex items-center justify-between text-xs uppercase tracking-[.18em]"><span>Mangalam / 2010—2025</span><span className="text-accent">01</span></div>
+            <div className="flex items-center justify-between text-xs uppercase tracking-[.18em]"><span>Mangalam / 2000—2025</span><span className="text-accent">01</span></div>
             <div><p className="font-display text-5xl leading-[.95]">Good advice<br />feels like<br /><i>clarity.</i></p><div className="mt-6 h-px w-20 bg-accent" /></div>
           </div>
-          <div className="absolute -bottom-5 right-4 max-w-[200px] rounded-2xl bg-card p-5 text-foreground surface-shadow"><p className="font-display text-3xl text-secondary">15</p><p className="mt-1 text-xs leading-5 text-muted-foreground">years of helping people plan with confidence</p></div>
+          <div className="absolute -bottom-5 right-4 max-w-[200px] rounded-2xl bg-card p-5 text-foreground surface-shadow"><p className="font-display text-3xl text-secondary">25</p><p className="mt-1 text-xs leading-5 text-muted-foreground">years of helping people plan with confidence</p></div>
         </div>
       </div>
       <div>
