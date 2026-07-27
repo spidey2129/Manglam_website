@@ -10,7 +10,7 @@ import {
 } from 'lucide-react';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
 import NotFound from '@/pages/not-found';
-import mangalamLogo from '@assets/WhatsApp_Image_2026-07-25_at_5.49.47_PM-removebg-preview_1785148781587.png';
+import mangalamLogo from '/mangalam-logo-gold-white.png';
 
 const queryClient = new QueryClient();
 
