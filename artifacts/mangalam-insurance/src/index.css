@@ -93,6 +93,8 @@
   .section-shell { width: min(1180px, calc(100% - 40px)); margin-inline: auto; }
   .eyebrow { font-size: 0.68rem; letter-spacing: .18em; text-transform: uppercase; font-weight: 700; }
   .surface-shadow { box-shadow: var(--shadow-soft); }
+  .brand-logo-crop { position: relative; display: block; width: 196px; height: 78px; overflow: hidden; }
+  .brand-logo-image { position: absolute; top: -79px; left: -18px; width: 244px; height: 244px; max-width: none; object-fit: contain; }
   .reveal { animation: reveal .7s cubic-bezier(.2,.8,.2,1) both; }
   .reveal-delay-1 { animation-delay: .08s; }
   .reveal-delay-2 { animation-delay: .16s; }
@@ -109,6 +111,8 @@
 @media (max-width: 767px) {
   .section-shell { width: min(100% - 28px, 1180px); }
   .hero-image { background-position: 64% center; }
+  .brand-logo-crop { width: 166px; height: 70px; }
+  .brand-logo-image { top: -67px; left: -15px; width: 208px; height: 208px; }
 }
 
 @media (prefers-reduced-motion: reduce) {

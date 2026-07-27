@@ -10,6 +10,7 @@ import {
 } from 'lucide-react';
 import { Route, Switch, Router as WouterRouter } from 'wouter';
 import NotFound from '@/pages/not-found';
+import mangalamLogo from '@assets/WhatsApp_Image_2026-07-25_at_5.49.47_PM-removebg-preview_1785148781587.png';
 
 const queryClient = new QueryClient();
 
@@ -57,14 +58,9 @@ const articles = [
 
 function Logo({ light = false }: { light?: boolean }) {
   return (
-    <a href="#top" className={`flex items-center gap-3 group ${light ? 'text-[#f7f2e8]' : 'text-primary'}`} data-testid="link-logo">
-      <span className={`grid h-10 w-10 place-items-center rounded-full border ${light ? 'border-[#d6b86a]/60' : 'border-secondary/40'} relative`}>
-        <span className="h-5 w-5 rotate-45 border-l-2 border-t-2 border-accent" />
-        <span className="absolute h-3 w-3 rotate-45 border-r-2 border-b-2 border-secondary" />
-      </span>
-      <span className="leading-none">
-        <span className="block font-display text-xl font-semibold tracking-tight">Mangalam</span>
-        <span className={`mt-1 block text-[9px] font-bold uppercase tracking-[.24em] ${light ? 'text-[#cbd1d1]' : 'text-muted-foreground'}`}>Insurance & Investment</span>
+    <a href="#top" className={`group block ${light ? 'drop-shadow-[0_2px_12px_rgba(0,0,0,.25)]' : ''}`} data-testid="link-logo" aria-label="Mangalam Insurance & Investment">
+      <span className="brand-logo-crop" aria-hidden="true">
+        <img src={mangalamLogo} alt="" className="brand-logo-image transition-transform duration-300 group-hover:scale-[1.03]" />
       </span>
     </a>
   );
