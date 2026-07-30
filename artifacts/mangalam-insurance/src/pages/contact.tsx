@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react';
-import { Check, Mail, Phone, Linkedin, ArrowRight, Link } from 'lucide-react';
+import { Check, Mail, Phone, Linkedin, ArrowRight } from 'lucide-react';
 import { SiteLayout } from '@/components/layout';
 import { PageHero } from '@/components/page-hero';
 import { services } from '@/lib/data';
+import { Link } from 'wouter';
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
