@@ -250,14 +250,44 @@ function QuoteForm() {
   const [submitted, setSubmitted] = useState(false);
   const [submitting, setSubmitting] = useState(false);
 
-  const submit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setSubmitting(true);
-    window.setTimeout(() => {
-      setSubmitting(false);
-      setSubmitted(true);
-    }, 650);
+ const submit = async (event: React.FormEvent<HTMLFormElement>) => {
+  event.preventDefault();
+  setSubmitting(true);
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  const data = {
+    name: formData.get("name"),
+    phone: formData.get("phone"),
+    email: formData.get("email"),
+    city: formData.get("city"),
+    service: formData.get("service"),
+    message: formData.get("message"),
   };
+
+  try {
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbzwW3mTihks0HyAeU3DY270tvj6e9K2UQIUDNxpNkzUdIaj8XYe71tZbSrgkd1bky4L/exec",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=UTF-8",
+        },
+        body: JSON.stringify(data),
+      }
+    );
+
+    form.reset();
+    setSubmitted(true);
+  } catch (error) {
+    alert("Failed to send enquiry. Please try again.");
+    console.error(error);
+  } finally {
+    setSubmitting(false);
+  }
+};
 
   return (
     <section className="bg-[#e8eee9] py-24 dark:bg-[#142d2b] md:py-32">
