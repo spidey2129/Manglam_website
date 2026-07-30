@@ -21,15 +21,44 @@ export default function ContactPage() {
     }
   }, []);
 
-  const submit = (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-    setSubmitting(true);
-    window.setTimeout(() => {
-      setSubmitting(false);
-      setSubmitted(true);
-    }, 800);
+ const submit = async (event: React.FormEvent<HTMLFormElement>) => {
+  event.preventDefault();
+  setSubmitting(true);
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  const data = {
+    name: formData.get("name"),
+    phone: formData.get("phone"),
+    email: formData.get("email"),
+    city: formData.get("city"),
+    service: formData.get("service"),
+    message: formData.get("message"),
   };
 
+  try {
+    await fetch(
+      "https://script.google.com/macros/s/AKfycbzwW3mTihks0HyAeU3DY270tvj6e9K2UQIUDNxpNkzUdIaj8XYe71tZbSrgkd1bky4L/exec",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "text/plain;charset=UTF-8",
+        },
+        body: JSON.stringify(data),
+      }
+    );
+
+    form.reset();
+    setSubmitted(true);
+  } catch (error) {
+    console.error(error);
+    alert("Failed to send enquiry. Please try again.");
+  } finally {
+    setSubmitting(false);
+  }
+};
   return (
     <SiteLayout>
       <PageHero
