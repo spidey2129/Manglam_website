@@ -73,7 +73,7 @@ function About() {
                 <span>Mangalam / 2000—2025</span><span className="text-accent">01</span>
               </div>
               <div>
-                <p className="font-display text-5xl leading-[.95]">Good advice<br />feels like<br /><i>clarity.</i></p>
+                <p className="font-display text-5xl leading-[.95]">Better Decisons<br />Begin With<br /><i>Better Thinking.</i></p>
                 <div className="mt-6 h-px w-20 bg-accent" />
               </div>
             </div>
