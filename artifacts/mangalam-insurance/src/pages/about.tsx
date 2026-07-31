@@ -78,7 +78,7 @@ export default function About() {
           <div className="flex flex-col items-center text-center">
             <p className="eyebrow text-secondary">Trusted Partners</p>
             <h2 className="mt-4 max-w-2xl font-display text-4xl leading-tight text-primary">
-              We work with India's most respected institutions.
+             Partnering with institutions that define excellence.
             </h2>
             <div className="mt-12 grid grid-cols-2 gap-4 sm:grid-cols-4 w-full">
               {partners.map((partner) => (
