@@ -18,7 +18,7 @@ export default function About() {
           <div>
             <p className="eyebrow text-secondary">Our Story</p>
             <h2 className="mt-4 font-display text-4xl leading-tight text-primary md:text-5xl">
-              Rooted in Gandhinagar, invested in your future.
+              From gandhinagar, with a vision for your future.
             </h2>
             <div className="mt-8 space-y-5 text-sm leading-7 text-muted-foreground">
               <p>
