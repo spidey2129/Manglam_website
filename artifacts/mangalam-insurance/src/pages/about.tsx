@@ -9,7 +9,7 @@ export default function About() {
     <SiteLayout>
       <PageHero
         eyebrow="About Mangalam"
-        title="We believe financial advice should make your life feel lighter."
+        title="More than protaction - a trusted partner for your future."
         description="For 25 years, we’ve been helping families and businesses across Gujarat plan with clarity, protect what matters, and build for tomorrow."
       />
       
@@ -39,7 +39,7 @@ export default function About() {
               <div className="relative z-10">
                 <QuoteIcon className="text-accent/80" />
                 <p className="mt-6 font-display text-2xl leading-relaxed md:text-3xl">
-                  "Our mission is simple: to bring absolute clarity to the financial decisions that shape your life."
+                  "We don't just protect your today. We help prepare your tomorrow."
                 </p>
                 <div className="mt-10">
                   <p className="font-bold">A.K. Goswami</p>
