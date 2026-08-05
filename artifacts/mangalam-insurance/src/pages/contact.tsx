@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Check, Mail, Phone, Linkedin, ArrowRight } from 'lucide-react';
+import { Check, Mail, Phone, ArrowRight, Link } from 'lucide-react';
 import { SiteLayout } from '@/components/layout';
 import { PageHero } from '@/components/page-hero';
 import { services } from '@/lib/data';
@@ -126,6 +126,29 @@ export default function ContactPage() {
                   title="Mangalam Insurance office location"
                 />
               </div>
+              <div className="mt-6">
+  <p className="font-semibold text-primary mb-3">Follow Us</p>
+
+  <div className="flex gap-3">
+    <a
+      href="https://www.instagram.com/mangalam_insurance/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="rounded-full bg-pink-600 text-white px-4 py-2 hover:opacity-90 transition"
+    >
+      Instagram
+    </a>
+
+    <a
+      href="https://www.facebook.com/profile.php?id=61577985164909"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="rounded-full bg-blue-600 text-white px-4 py-2 hover:opacity-90 transition"
+    >
+      Facebook
+    </a>
+  </div>
+</div>
             </div>
           </div>
 
