@@ -25,7 +25,7 @@ export const benefits = [
   ['A local team with a wide view', 'Rooted in Gujarat. Connected to the best thinking across the market.', Landmark],
 ];
 
-export const partners = ['LIC', 'HDFC Life', 'TATA AIA', 'SBI Life', 'ICICI Prudential', 'Bajaj Allianz', 'Max Life', 'Aditya Birla'];
+export const partners = ['CARE', 'HDFC ERGO', 'TATA AIG', 'NIVA BUPA', 'ICICI LOMBARD', 'Bajaj Allianz', 'IFFCO TOKIO', 'ORIENTAL'];
 
 export const faqs = [
   ['Why should I work with an advisor instead of buying online?', 'Online tools can show you a price. An advisor helps you decide what is appropriate, compare the details that matter and stay with you when a claim or life change needs attention.'],
