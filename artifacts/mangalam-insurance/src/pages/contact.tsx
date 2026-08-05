@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Check, Mail, Phone, ArrowRight, Link } from 'lucide-react';
+import { Check, Mail, Phone, ArrowRight } from 'lucide-react';
 import { SiteLayout } from '@/components/layout';
 import { PageHero } from '@/components/page-hero';
 import { services } from '@/lib/data';
