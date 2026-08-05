@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useLocation } from 'wouter';
-import { ArrowRight, Linkedin, Mail, Menu, Moon, Phone, Sun, X } from 'lucide-react';
+import { ArrowRight, Instagram, Facebook, Mail, Menu, Moon, Phone, Sun, X } from 'lucide-react';
 import mangalamLogo from '/mangalam-logo-gold-white.png';
 
 function ScrollToTop() {
@@ -143,26 +143,27 @@ export function ContactFooter() {
           <p className="mt-7 max-w-sm text-sm leading-6 text-white/60">
             Thoughtful insurance and investment advice for the lives, families and businesses you’re building.
           </p>
-          <div className="mt-7 flex gap-3">
-            <a
-              href="https://www.linkedin.com"
-              target="_blank"
-              rel="noreferrer"
-              className="grid h-9 w-9 place-items-center rounded-full border border-white/20 text-white/70 transition hover:border-accent hover:text-accent"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={16} />
-            </a>
-            <a
-              href="https://wa.me/919824277195"
-              target="_blank"
-              rel="noreferrer"
-              className="grid h-9 w-9 place-items-center rounded-full border border-white/20 text-white/70 transition hover:border-accent hover:text-accent font-bold"
-              aria-label="WhatsApp"
-            >
-              W
-            </a>
-          </div>
+         <div className="mt-7 flex gap-3">
+  <a
+    href="https://www.instagram.com/mangalam_insurance/"
+    target="_blank"
+    rel="noreferrer"
+    className="grid h-9 w-9 place-items-center rounded-full border border-white/20 text-white/70 transition hover:border-accent hover:text-accent"
+    aria-label="Instagram"
+  >
+    <Instagram size={16} />
+  </a>
+
+  <a
+    href="https://www.facebook.com/profile.php?id=61577985164909"
+    target="_blank"
+    rel="noreferrer"
+    className="grid h-9 w-9 place-items-center rounded-full border border-white/20 text-white/70 transition hover:border-accent hover:text-accent"
+    aria-label="Facebook"
+  >
+    <Facebook size={16} />
+  </a>
+</div>
         </div>
         <div>
           <p className="eyebrow text-accent">Contact</p>
