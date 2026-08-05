@@ -143,7 +143,8 @@ export function ContactFooter() {
           <p className="mt-7 max-w-sm text-sm leading-6 text-white/60">
             Thoughtful insurance and investment advice for the lives, families and businesses you’re building.
           </p>
-         <div className="mt-7 flex gap-3">
+
+          <div className="mt-7 flex gap-3">
   <a
     href="https://www.instagram.com/mangalam_insurance/"
     target="_blank"
@@ -163,7 +164,18 @@ export function ContactFooter() {
   >
     <Facebook size={16} />
   </a>
+
+  <a
+    href="https://wa.me/919824277195"
+    target="_blank"
+    rel="noreferrer"
+    className="grid h-9 w-9 place-items-center rounded-full border border-white/20 text-white/70 transition hover:border-accent hover:text-accent font-bold"
+    aria-label="WhatsApp"
+  >
+    W
+  </a>
 </div>
+          
         </div>
         <div>
           <p className="eyebrow text-accent">Contact</p>
