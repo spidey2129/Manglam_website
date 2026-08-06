@@ -203,14 +203,14 @@ export function ContactFooter() {
             10:00 am — 6:00 pm
           </p>
           <a
-            href="https://maps.app.goo.gl/yyLpdQnwRH6ZQUyLA"
+            href="https://maps.app.goo.gl/K1ne147tcBYv69y16?g_st=ac"
             target="_blank"
             rel="noreferrer"
             className="mt-5 block overflow-hidden rounded-xl border border-white/15"
             aria-label="Open in Google Maps"
           >
             <iframe
-              src="https://maps.google.com/maps?q=Plot+945%2F2+Sector+7%2FC+Gandhinagar+Gujarat+382007+Opposite+Pathikashram&output=embed&z=16"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d229.17293748369968!2d72.641832!3d23.215160482072132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDEyJzU0LjUiTiA3MsKwMzgnMzAuNiJF!5e0!3m2!1sen!2sin!4v1786005581895!5m2!1sen!2sin"
               width="100%"
               height="160"
               style={{ border: 0, display: 'block' }}
