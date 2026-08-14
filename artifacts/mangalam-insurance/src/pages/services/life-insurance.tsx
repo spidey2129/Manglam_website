@@ -10,14 +10,9 @@ export default function LifeInsurancePage() {
       whatIsText={
         <>
           <p>
-            Life insurance is the bedrock of any sound financial plan. In India, where social security nets are limited, ensuring your family has a guaranteed financial cushion in your absence is not just an option—it is a responsibility.
+            Life insurance is more than a policy—it is a promise to protect the people who depend on you. It provides financial security to your loved ones when they need it most, helping them maintain their lifestyle, manage future responsibilities, and achieve important goals even in your absence.
           </p>
-          <p>
-            Whether it's pure term insurance designed to replace income and clear debts, or a linked plan that also helps build wealth for milestones like a child's education or marriage, the right life cover brings absolute peace of mind.
-          </p>
-          <p>
-            At Mangalam, we look beyond the premium amount. We calculate your actual human life value, factor in inflation, and help you structure a policy that ensures your family's lifestyle remains uninterrupted.
-          </p>
+         
         </>
       }
       coveredItems={[
