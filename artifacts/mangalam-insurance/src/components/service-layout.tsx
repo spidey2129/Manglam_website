@@ -3,6 +3,7 @@ import { Link } from 'wouter';
 import { ArrowRight, CheckCircle2, ChevronDown, CircleHelp } from 'lucide-react';
 import { SiteLayout } from '@/components/layout';
 import { PageHero } from '@/components/page-hero';
+import { SEO } from '@/components/seo';
 
 export interface ServiceFAQ {
   q: string;
@@ -37,7 +38,14 @@ export function ServicePageLayout({
 }: ServicePageProps) {
   const [openFaq, setOpenFaq] = useState(0);
 
-  return (
+return (
+  <>
+    <SEO
+      title={`${title} in Gandhinagar | Mangalam Insurance`}
+      description={description}
+      path={`/services/${serviceParam}`}
+    />
+
     <SiteLayout>
       <PageHero eyebrow={eyebrow} title={title} description={description} />
       
@@ -124,5 +132,6 @@ export function ServicePageLayout({
         </div>
       </section>
     </SiteLayout>
+</>
   );
 }
