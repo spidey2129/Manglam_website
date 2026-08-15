@@ -445,7 +445,6 @@ function Insights() {
 }
 
 export default function Home() {
-  return (
     return (
   <>
     <SEO
