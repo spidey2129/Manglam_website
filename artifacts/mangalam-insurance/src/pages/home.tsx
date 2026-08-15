@@ -454,7 +454,7 @@ export default function Home() {
     />
 
     <SiteLayout transparentHeader>
-    <SiteLayout transparentHeader>
+  
       <Hero />
       <TrustStrip />
       <About />
