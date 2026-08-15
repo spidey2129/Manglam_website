@@ -5,7 +5,7 @@ export default function LifeInsurancePage() {
     <ServicePageLayout
       eyebrow="Protection"
       title="Life Insurance"
-      description="A promise your family can count on, whatever tomorrow brings. Secure their standard of living and future aspirations."
+     description="Life insurance solutions in Gandhinagar to help protect your family's financial future, with guidance on suitable life cover and long-term protection."
       serviceParam="life-insurance"
       whatIsText={
         <>
