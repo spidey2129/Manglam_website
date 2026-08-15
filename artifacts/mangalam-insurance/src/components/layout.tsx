@@ -200,7 +200,7 @@ export function ContactFooter() {
           <p className="eyebrow text-accent">Visit / hours</p>
           <p className="mt-5 text-sm leading-6 text-white/75">
             Monday — Saturday<br />
-            10:00 am — 6:00 pm
+            09:30 am — 6:30 pm
           </p>
           <a
             href="https://maps.app.goo.gl/K1ne147tcBYv69y16?g_st=ac"
