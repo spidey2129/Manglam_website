@@ -3,14 +3,22 @@ import { ArrowRight, Award, BarChart3, Landmark, Target, ShieldCheck, Users } fr
 import { SiteLayout } from '@/components/layout';
 import { PageHero } from '@/components/page-hero';
 import { partners } from '@/lib/data';
+import { SEO } from '@/components/seo';
 
 export default function About() {
-  return (
+ return (
+  <>
+    <SEO
+      title="About Mangalam Insurance & Investment | Gandhinagar"
+      description="Learn about Mangalam Insurance & Investment, a Gandhinagar-based insurance and investment advisory firm helping families and businesses across Gujarat."
+      path="/about"
+    />
+
     <SiteLayout>
       <PageHero
         eyebrow="About Mangalam"
-        title="More than protaction - a trusted partner for your future."
-        description="For 25 years, we’ve been helping families and businesses across Gujarat plan with clarity, protect what matters, and build for tomorrow."
+        title="More than protection - a trusted partner for your future."
+       description="For over 25 years, Mangalam Insurance & Investment has helped families and businesses across Gujarat protect what matters, plan with clarity, and build for tomorrow."
       />
       
       <section className="py-24 md:py-32">
@@ -18,7 +26,7 @@ export default function About() {
           <div>
             <p className="eyebrow text-secondary">Our Story</p>
             <h2 className="mt-4 font-display text-4xl leading-tight text-primary md:text-5xl">
-              From gandhinagar, with a vision for your future.
+              From Gandhinagar, with a vision for your future.
             </h2>
             <div className="mt-8 space-y-5 text-sm leading-7 text-muted-foreground">
               <p>
@@ -103,6 +111,7 @@ export default function About() {
         </div>
       </section>
     </SiteLayout>
+    </>
   );
 }
 
