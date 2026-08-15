@@ -17,6 +17,9 @@ function Hero() {
           <h1 className="font-display text-[clamp(3.5rem,8vw,6.75rem)] leading-[.98] tracking-[-.055em] text-[#faf6ec]">
             We assure.<br /><span className="text-accent">That you are insured.</span>
           </h1>
+          <h2 className="mt-6 text-xl md:text-2xl text-[#faf6ec]">
+  Insurance &amp; Investment Solutions in Gandhinagar
+</h2>
           <p className="mt-7 max-w-[490px] text-base leading-7 text-white/72 md:text-lg">
             Insurance and investment advice built around your life — so the people and plans you care about stay protected through every chapter.
           </p>
