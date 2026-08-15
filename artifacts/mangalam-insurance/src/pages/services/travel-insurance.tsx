@@ -5,7 +5,7 @@ export default function TravelInsurancePage() {
     <ServicePageLayout
       eyebrow="Protection"
       title="Travel Insurance"
-      description="Go further knowing the unexpected is already considered. Essential cover for international and domestic journeys."
+     description="Travel insurance solutions in Gandhinagar to help protect you against covered medical emergencies, trip disruptions and other unexpected travel risks."
       serviceParam="travel-insurance"
       whatIsText={
         <>
