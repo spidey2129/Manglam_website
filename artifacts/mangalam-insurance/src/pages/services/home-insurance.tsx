@@ -5,7 +5,7 @@ export default function HomeInsurancePage() {
     <ServicePageLayout
       eyebrow="Protection"
       title="Home Insurance"
-      description="Protect the place where your most important memories live against natural disasters, theft, and accidents."
+      description="Home insurance solutions in Gandhinagar to help protect your house and belongings against covered risks, with guidance on suitable home protection."
       serviceParam="home-insurance"
       whatIsText={
         <>
