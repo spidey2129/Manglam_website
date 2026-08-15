@@ -5,7 +5,7 @@ export default function BusinessInsurancePage() {
     <ServicePageLayout
       eyebrow="Protection"
       title="Business Insurance"
-      description="Resilient businesses begin with a considered risk strategy. Protect your assets, employees, and liabilities."
+      description="Business insurance solutions in Gandhinagar to help protect businesses against covered risks, liabilities and unexpected losses, with guidance on suitable commercial coverage."
       serviceParam="business-insurance"
       whatIsText={
         <>
