@@ -5,7 +5,7 @@ export default function HealthInsurancePage() {
     <ServicePageLayout
       eyebrow="Protection"
       title="Health Insurance"
-      description="Thoughtful cover for treatment, recovery and peace of mind. Protect your savings from medical emergencies."
+     description="Health insurance solutions in Gandhinagar for individuals, families and senior citizens, with guidance to choose suitable coverage and support through the insurance process."
       serviceParam="health-insurance"
       whatIsText={
         <>
