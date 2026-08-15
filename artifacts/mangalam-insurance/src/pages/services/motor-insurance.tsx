@@ -5,7 +5,7 @@ export default function MotorInsurancePage() {
     <ServicePageLayout
       eyebrow="Protection"
       title="Motor Insurance"
-      description="Keep moving with protection designed around your journeys. Comprehensive cover for your vehicles."
+      description="Motor insurance solutions in Gandhinagar for cars and two-wheelers, with guidance on suitable coverage, renewals and claims."
       serviceParam="motor-insurance"
       whatIsText={
         <>
