@@ -2,6 +2,7 @@ import { Link } from 'wouter';
 import { ArrowRight, Check, ChevronDown, CircleHelp, Clock3, Mail, Phone, Quote, ShieldCheck } from 'lucide-react';
 import { useState } from 'react';
 import { SiteLayout } from '@/components/layout';
+import { SEO } from '@/components/seo';
 import { services, benefits, partners, faqs, articles } from '@/lib/data';
 
 function Hero() {
@@ -445,6 +446,15 @@ function Insights() {
 
 export default function Home() {
   return (
+    return (
+  <>
+    <SEO
+      title="Mangalam Insurance & Investment | Insurance Advisor in Gandhinagar"
+      description="Mangalam Insurance & Investment provides life, health, motor, home, travel and business insurance solutions in Gandhinagar."
+      path="/"
+    />
+
+    <SiteLayout transparentHeader>
     <SiteLayout transparentHeader>
       <Hero />
       <TrustStrip />
@@ -457,5 +467,6 @@ export default function Home() {
       <FAQ />
       <Insights />
     </SiteLayout>
+    </>
   );
 }
