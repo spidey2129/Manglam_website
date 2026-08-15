@@ -74,7 +74,7 @@ function About() {
           <div className="relative rounded-[2rem] bg-[#d9e5dc] p-4 pb-16 dark:bg-[#1c3a35]">
             <div className="flex aspect-[4/4.5] flex-col justify-between overflow-hidden rounded-[1.5rem] bg-[#204c4a] p-8 text-[#f7f2e8]">
               <div className="flex items-center justify-between text-xs uppercase tracking-[.18em]">
-                <span>Mangalam / 2000—2025</span><span className="text-accent">01</span>
+                <span>Mangalam / Since 2000 </span><span className="text-accent">01</span>
               </div>
               <div>
                 <p className="font-display text-5xl leading-[.95]">Better Decisons<br />Begin With<br /><i>Better Thinking.</i></p>
