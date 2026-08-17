@@ -15,11 +15,42 @@ export default function About() {
     />
 
     <SiteLayout>
-      <PageHero
-        eyebrow="About Mangalam"
-        title="More than protection - a trusted partner for your future."
-       description="For over 25 years, Mangalam Insurance & Investment has helped families and businesses across Gujarat protect what matters, plan with clarity, and build for tomorrow."
+     <section className="relative overflow-hidden bg-[#062c5c]">
+  <div className="grid min-h-[620px] md:grid-cols-2">
+    
+    <div className="flex items-center px-8 py-16 md:px-12 lg:px-16">
+      <div className="max-w-xl">
+        <div className="mb-6 flex items-center gap-4">
+          <span className="h-px w-12 bg-accent" />
+          <span className="eyebrow text-accent">About Mangalam</span>
+        </div>
+
+        <h1 className="font-display text-5xl leading-[1.05] text-white md:text-6xl">
+          More than protection —
+          <br />
+          a trusted partner for your future.
+        </h1>
+
+        <p className="mt-7 max-w-xl text-base leading-7 text-white/80 md:text-lg">
+          For over 25 years, Mangalam Insurance & Investment has helped
+          families and businesses across Gujarat protect what matters,
+          plan with clarity, and build for tomorrow.
+        </p>
+      </div>
+    </div>
+
+    <div className="relative min-h-[420px] md:min-h-full">
+      <img
+        src="/about-us.jpeg"
+        alt="Ashok Goswami and Shivang Goswami of Mangalam Insurance"
+        className="absolute inset-0 h-full w-full object-cover"
       />
+
+      <div className="absolute inset-y-0 left-0 hidden w-16 bg-[#062c5c] md:block [clip-path:polygon(0_0,100%_0,35%_100%,0_100%)]" />
+    </div>
+
+  </div>
+</section>
       
       <section className="py-24 md:py-32">
         <div className="section-shell grid gap-14 md:grid-cols-2 md:items-center">
