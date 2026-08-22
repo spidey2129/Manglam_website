@@ -224,7 +224,7 @@ export function ContactFooter() {
       </div>
       <div className="border-t border-white/10">
         <div className="section-shell flex flex-col justify-between gap-3 py-6 text-xs text-white/40 md:flex-row">
-          <p>© 2025 Mangalam Insurance & Investment. All rights reserved.</p>
+          <p>© 2026 Mangalam Insurance & Investment. All rights reserved.</p>
           <div className="flex gap-5">
             <Link href="/privacy" className="hover:text-white">
               Privacy
