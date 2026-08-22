@@ -6,7 +6,7 @@ export default function TermsPage() {
       <section className="bg-[#112c46] pt-32 pb-16 text-white text-center">
         <div className="section-shell">
           <h1 className="font-display text-4xl md:text-5xl">Terms of Use</h1>
-          <p className="mt-4 text-white/60">Last updated: January 2025</p>
+          <p className="mt-4 text-white/60">Last updated: January 2026</p>
         </div>
       </section>
 
